@@ -226,7 +226,7 @@ func init() {
 	// sus = append(sus, 12345678)
 	// sus = append(sus, 87654321)
 
-	if *runcfg != "" {
+	if *runcfg != "" {rename
 		f, err := os.Open(*runcfg)
 		if err != nil {
 			panic(err)
